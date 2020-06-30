@@ -16,7 +16,7 @@ namespace <NAMEPACE>
             context = new <ENTITIES>();
         }
 
-        public UnitOfWork(TogSMPEntities ctx)
+        public UnitOfWork(<ENTITIES> ctx)
         {
             context = ctx;
         }
