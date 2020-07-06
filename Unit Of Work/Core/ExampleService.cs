@@ -12,7 +12,7 @@ namespace <NAMESPACE>
         private GenericRepository<TABLE> repo;
 
         public ExampleService() {
-            pageRepo = uow.GenericRepository<TABLE>();
+            repo = uow.GenericRepository<TABLE>();
         }
 
         public List<TABLE> GetAll()
